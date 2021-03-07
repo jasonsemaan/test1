@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+   <html>
+      <head>
+            <title> Registration Form </title>
+      </head>
+      <body>
+         <h2>Registration Form</h2>
+         <form action="/register" name="form1">
+            
+                <label for="firstname">First name :</label>
+                <input type="text" id="firstname" name="firstname" value="firstname">
+            <br><br>
+                <label for="lastname">Last name :</label>
+                <input type="text" id="lastname" name="lastname">
+            <br><br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email">
+                <br><br>
+               <input type="number" min="0" max="5">
+               <br><br>
+               <input type="range" min="5" max="10">
+               <br><br>
+               <input type="tel" pattern="[0-9]{2}/[0-9]{3}-[0-9]{3}">
+               <br><br>
+               <input type="text" list="team">
+               <datalist id="team">
+                  <option value="real madrid"></option>
+                  <option value="manchester"></option>
+                  <option value="Liverpool"></option>
+               </datalist>
+               <br><br>
+               <input type="email" placeholder="example@email.com">
+            <br><br>
+                <input type="submit" value="Submit">
+              
+         </form>
+      </body>
+      
+</html>
